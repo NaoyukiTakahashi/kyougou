@@ -394,6 +394,7 @@ void CCamera::NomalUpdate(D3DXVECTOR3 PlayerPos[], D3DXVECTOR3 PlayerRot[])
 		//ターゲット機能ON
 		m_fφ = PlayerRot[m_nCameraNum].y + PLAYE_ROT_VERTICAL_FRONT;	//横回転初期値
 		m_bTarget = false;												//ターゲットOFF
+		//距離
 	}
 
 	//ターゲット機能ON
